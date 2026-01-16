@@ -42,3 +42,6 @@ hideOverlayOnVideoPage();
 
 const observer = new MutationObserver(hideRecommendedVideos);
 observer.observe(document.body, { childList: true, subtree: true });
+
+
+// END
