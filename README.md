@@ -28,7 +28,7 @@ Open a new tab in Chrome and go to YouTube.
 The extension should be active, and it will block YouTube recommendations, replacing them with the custom UI overlay.
 
 
-END
+END...
 
 
 **Features:**
