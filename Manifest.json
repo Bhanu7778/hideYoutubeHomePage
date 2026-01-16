@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Search Overlay",
+    "version": "1.0",
+    "description": "A Chrome extension to display only a search bar on YouTube's homepage.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+      }
+    ],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
